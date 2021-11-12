@@ -2,7 +2,8 @@
   "collectionName": "components_project_project_cards",
   "info": {
     "name": "projectCard",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,9 @@
       "type": "string"
     },
     "text": {
-      "type": "string"
+      "type": "component",
+      "repeatable": true,
+      "component": "text.text"
     }
   }
 }

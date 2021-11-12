@@ -2,14 +2,12 @@
   "collectionName": "components_project_project_card_with_medias",
   "info": {
     "name": "projectCardWithMedia",
-    "icon": "archway"
+    "icon": "archway",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
-    },
-    "text": {
       "type": "string"
     },
     "image": {
@@ -23,6 +21,11 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.text"
     }
   }
 }

@@ -21,9 +21,6 @@
     "industry": {
       "type": "string"
     },
-    "type": {
-      "type": "string"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -50,6 +47,15 @@
       "type": "component",
       "repeatable": true,
       "component": "testimonial.testimonial"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "locked": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }

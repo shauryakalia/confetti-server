@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_texts",
+  "info": {
+    "name": "text",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
