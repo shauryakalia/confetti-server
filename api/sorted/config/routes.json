@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sorted",
+      "handler": "sorted.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sorted",
+      "handler": "sorted.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sorted",
+      "handler": "sorted.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

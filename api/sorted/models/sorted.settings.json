@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "sorteds",
+  "info": {
+    "name": "sorted"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

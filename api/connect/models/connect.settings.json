@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "connects",
   "info": {
-    "name": "connect"
+    "name": "connect",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,6 +29,11 @@
     },
     "dribble": {
       "type": "string"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "address.address"
     }
   }
 }
