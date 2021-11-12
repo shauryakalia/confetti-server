@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/no-padding",
+      "handler": "no-padding.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/no-padding",
+      "handler": "no-padding.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/no-padding",
+      "handler": "no-padding.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

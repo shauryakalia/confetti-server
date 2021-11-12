@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "connects",
+  "info": {
+    "name": "connect"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "behance": {
+      "type": "string"
+    },
+    "dribble": {
+      "type": "string"
+    }
+  }
+}

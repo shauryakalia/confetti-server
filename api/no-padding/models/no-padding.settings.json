@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "no_paddings",
+  "info": {
+    "name": "NoPadding"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

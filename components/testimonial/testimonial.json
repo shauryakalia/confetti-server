@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_testimonial_testimonials",
+  "info": {
+    "name": "testimonial",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "testimonial": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "stars": {
+      "type": "integer"
+    }
+  }
+}

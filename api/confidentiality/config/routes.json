@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/confidentiality",
+      "handler": "confidentiality.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/confidentiality",
+      "handler": "confidentiality.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/confidentiality",
+      "handler": "confidentiality.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
