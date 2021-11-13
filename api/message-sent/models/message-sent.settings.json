@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "message_sents",
+  "info": {
+    "name": "messageSent"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.text"
+    }
+  }
+}

@@ -2,12 +2,13 @@
   "collectionName": "components_text_texts",
   "info": {
     "name": "text",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "text": {
-      "type": "string"
+      "type": "richtext"
     }
   }
 }

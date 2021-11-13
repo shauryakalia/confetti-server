@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/message-sent",
+      "handler": "message-sent.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/message-sent",
+      "handler": "message-sent.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/message-sent",
+      "handler": "message-sent.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
