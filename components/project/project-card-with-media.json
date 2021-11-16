@@ -29,6 +29,9 @@
     },
     "sno": {
       "type": "integer"
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }
