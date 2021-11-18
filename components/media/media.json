@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_media_media",
+  "info": {
+    "name": "Media",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
