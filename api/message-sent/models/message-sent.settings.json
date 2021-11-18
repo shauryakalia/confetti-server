@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "message_sents",
   "info": {
-    "name": "messageSent",
+    "name": "messagesent",
     "description": ""
   },
   "options": {

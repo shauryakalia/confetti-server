@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "no_paddings",
+  "collectionName": "nopads",
   "info": {
-    "name": "NoPadding",
-    "description": ""
+    "name": "nopad"
   },
   "options": {
     "increments": true,

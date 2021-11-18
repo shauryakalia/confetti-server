@@ -15,18 +15,6 @@
     "title": {
       "type": "string"
     },
-    "video": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
-    },
     "logo": {
       "model": "file",
       "via": "related",
@@ -38,6 +26,9 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "videoUrl": {
+      "type": "string"
     }
   }
 }

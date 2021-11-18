@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/no-padding",
-      "handler": "no-padding.find",
+      "path": "/nopad",
+      "handler": "nopad.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/no-padding",
-      "handler": "no-padding.update",
+      "path": "/nopad",
+      "handler": "nopad.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/no-padding",
-      "handler": "no-padding.delete",
+      "path": "/nopad",
+      "handler": "nopad.delete",
       "config": {
         "policies": []
       }
