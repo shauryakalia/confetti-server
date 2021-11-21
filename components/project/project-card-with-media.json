@@ -24,8 +24,7 @@
     "media": {
       "type": "component",
       "repeatable": true,
-      "component": "media.media",
-      "required": true
+      "component": "media.media"
     }
   }
 }
