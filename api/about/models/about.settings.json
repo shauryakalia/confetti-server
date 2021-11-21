@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "abouts",
   "info": {
-    "name": "About"
+    "name": "About",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "coverImage": {
+    "coverImageWeb": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -38,6 +39,18 @@
       "type": "component",
       "repeatable": true,
       "component": "project.project-card-with-media"
+    },
+    "coverImageMobile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
